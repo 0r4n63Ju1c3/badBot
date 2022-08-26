@@ -3,9 +3,14 @@ from webdriver_manager.chrome import ChromeDriverManager
 from auth_params import ACCT, API, CALLBACK
 from selenium import webdriver
 
+import numpy as np
+
 from datetime import date, timedelta
 
 import json
+
+CHAINSIZE = 30
+DAYSOUT = 2
 
 def authenticate():
     token_path = 'aaah.json'
@@ -37,13 +42,15 @@ def get_position(client):
         return False
 
 def call_option_chain(client, ticker: str):
-    expDate = date.today() + timedelta(3)
+    expDate = date.today() + timedelta(DAYSOUT)
     #strike_range=client.Options.StrikeRange.NEAR_THE_MONEY, if you want NTM
     r = client.get_option_chain(
         symbol=ticker,
         contract_type=client.Options.ContractType.CALL,
         to_date=expDate,
-        strike_count=20
+        from_date=date.today(),
+        strike_count=CHAINSIZE,
+        strategy=client.Options.Strategy.ANALYTICAL
         )
         #contract_type=client.Options.ContractType.ALL)
     assert r.status_code == 200, r.raise_for_status()
@@ -53,11 +60,15 @@ def call_option_chain(client, ticker: str):
     return out
 
 def put_option_chain(client, ticker: str):
+    expDate = date.today() + timedelta(DAYSOUT)
+
     r = client.get_option_chain(
         symbol=ticker,
         contract_type=client.Options.ContractType.PUT,
-        strike_range=client.Options.StrikeRange.NEAR_THE_MONEY,
-        days_to_expiration=2
+        to_date=expDate,
+        from_date=date.today(),
+        strike_count=CHAINSIZE,
+        strategy=client.Options.Strategy.ANALYTICAL
         )
         #contract_type=client.Options.ContractType.ALL)
     assert r.status_code == 200, r.raise_for_status()
@@ -65,3 +76,53 @@ def put_option_chain(client, ticker: str):
     with open('put.json', 'w') as f:
         json.dump(out, f, indent=2)
     return out
+
+def getCallIV(call) -> float:
+    callStrikes = (call['callExpDateMap'][list(call['callExpDateMap'].keys())[0]].keys())
+    #print(callStrikes)
+    listCallStrikes = list(callStrikes)
+    listCallVol =[]
+    listCalltotVol = []
+    listCallopIn = []
+
+    for x in listCallStrikes:
+        callvol = call['callExpDateMap'][list(call['callExpDateMap'].keys())[0]][x][0]['volatility']
+        calltotVol = call['callExpDateMap'][list(call['callExpDateMap'].keys())[0]][x][0]['totalVolume']
+        callopIn = call['callExpDateMap'][list(call['callExpDateMap'].keys())[0]][x][0]['openInterest']
+
+        #code to pring the option chain if you want to see it
+        #print(json.dumps(call['callExpDateMap'][list(call['callExpDateMap'].keys())[0]][x][0]['description'],indent = 4) + " " +
+        #    str(callvol) + " " + str(calltotVol) + " " + str(callopIn)
+        #)
+
+        listCallVol.append(callvol)
+        listCalltotVol.append(calltotVol)
+        listCallopIn.append(callopIn)
+
+    indexOne = np.argmax(np.array(listCalltotVol))
+    indexTwo = np.argmax(np.array(listCallopIn))
+
+    newList = replaceNan(getAvg(listCallVol), listCallVol)
+
+    return round(((newList[indexOne] + newList[indexTwo]) / 2), 3)
+
+#returns the avg but should remove the Nan's
+def getAvg(l):
+    total = 0
+    num = 0
+    for x in l:
+        if x != 'NaN':
+            total = total + x
+            num = num + 1
+    return round((total / num), 3)
+
+#replace the NaN with avg from above
+#I cant believe I had to write these functions
+def replaceNan(avg, l):
+    nl = []
+    for x in l:
+        if x != 'NaN':
+            nl.append(x)
+        else:
+            nl.append(avg)
+    return nl

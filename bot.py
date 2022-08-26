@@ -1,10 +1,12 @@
 from marketopen import *
 from getData import *
 
+import json
+
 from datetime import datetime
 
 
-STOCK = 'SPY'
+STOCK = 'GOOG'
 
 def main() -> None:
     print()
@@ -23,7 +25,7 @@ def main() -> None:
     now = datetime.now()
     position = get_position(client)
 
-    print(now)
+    print(now), print()
 
 
         # get current position
@@ -34,8 +36,10 @@ def main() -> None:
 
     print("Current price " + str(price))
 
-    Calloption = call_option_chain(client, STOCK)
-    Putoption = put_option_chain(client, STOCK)
+    callOption = call_option_chain(client, STOCK)
+    putOption = put_option_chain(client, STOCK)
+
+    print("Call IV = " + str(getCallIV(callOption)))
 
 
 if __name__=="__main__":
