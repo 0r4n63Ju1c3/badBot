@@ -1,5 +1,7 @@
 from tda import auth, client
 from webdriver_manager.chrome import ChromeDriverManager
+
+#location of authentication stuff, tokens, etc 
 from auth_params import ACCT, API, CALLBACK
 from selenium import webdriver
 
@@ -10,6 +12,7 @@ from datetime import date, timedelta
 
 import json
 
+#chainsize and number of days you want option to be
 CHAINSIZE = 30
 DAYSOUT = 2
 
@@ -85,6 +88,7 @@ def put_option_chain(client, ticker: str):
 
 #returns IV for call chain
 def getCallIV(call) -> float:
+    #this function works by taking the average implied volality and 
     callStrikes = (call['callExpDateMap'][list(call['callExpDateMap'].keys())[0]].keys())
     listCallStrikes = list(callStrikes)
     listCallVol =[]
@@ -108,13 +112,18 @@ def getCallIV(call) -> float:
         listCalltotVol.append(calltotVol)
         listCallopIn.append(callopIn)
 
+    #index of max totVolume
     indexOne = np.argmax(np.array(listCalltotVol))
+
+    #index of max open interest 
     indexTwo = np.argmax(np.array(listCallopIn))
 
+    #replaces Nan in array with avg
     newList = replaceNan(getAvg(listCallVol), listCallVol)
 
     print('Avg IV for ' + str(CHAINSIZE) + ': ' + str(getAvg(listCallVol)))
 
+    #returns avg IV for where totalvolume is highest and openInterest is hightest 
     return round(((newList[indexOne] + newList[indexTwo]) / 2), 3)
 
 
