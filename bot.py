@@ -1,5 +1,5 @@
 from marketopen import *
-from getData import *
+from data import *
 
 import json
 
