@@ -11,7 +11,6 @@
   "volatility": 29.0,
   "daysToExpiration": -1.0,
   "numberOfContracts": 60,
-  "putExpDateMap": {},
   "callExpDateMap": {
     "2022-12-19:1": {
       "369.0": [
@@ -62,9 +61,9 @@
           "markPercentChange": -4.35,
           "intrinsicValue": 14.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "370.0": [
@@ -115,9 +114,9 @@
           "markPercentChange": -4.64,
           "intrinsicValue": 13.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "371.0": [
@@ -168,9 +167,9 @@
           "markPercentChange": -5.02,
           "intrinsicValue": 12.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "372.0": [
@@ -221,9 +220,9 @@
           "markPercentChange": -5.27,
           "intrinsicValue": 11.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "373.0": [
@@ -274,9 +273,9 @@
           "markPercentChange": -5.62,
           "intrinsicValue": 10.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "374.0": [
@@ -327,9 +326,9 @@
           "markPercentChange": -5.99,
           "intrinsicValue": 9.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "375.0": [
@@ -380,9 +379,9 @@
           "markPercentChange": -6.42,
           "intrinsicValue": 8.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "376.0": [
@@ -433,9 +432,9 @@
           "markPercentChange": -6.83,
           "intrinsicValue": 7.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "377.0": [
@@ -486,9 +485,9 @@
           "markPercentChange": -7.52,
           "intrinsicValue": 6.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "378.0": [
@@ -539,9 +538,9 @@
           "markPercentChange": -11.27,
           "intrinsicValue": 5.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "379.0": [
@@ -592,9 +591,9 @@
           "markPercentChange": -8.97,
           "intrinsicValue": 4.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "380.0": [
@@ -645,9 +644,9 @@
           "markPercentChange": -12.37,
           "intrinsicValue": 3.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "381.0": [
@@ -698,9 +697,9 @@
           "markPercentChange": -10.38,
           "intrinsicValue": 2.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "382.0": [
@@ -751,9 +750,9 @@
           "markPercentChange": -11.48,
           "intrinsicValue": 1.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "383.0": [
@@ -804,9 +803,9 @@
           "markPercentChange": -11.68,
           "intrinsicValue": 0.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "384.0": [
@@ -857,9 +856,9 @@
           "markPercentChange": -13.48,
           "intrinsicValue": -0.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "385.0": [
@@ -910,9 +909,9 @@
           "markPercentChange": -14.34,
           "intrinsicValue": -1.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "386.0": [
@@ -963,9 +962,9 @@
           "markPercentChange": -15.27,
           "intrinsicValue": -2.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "387.0": [
@@ -1016,9 +1015,9 @@
           "markPercentChange": -17.45,
           "intrinsicValue": -3.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "388.0": [
@@ -1069,9 +1068,9 @@
           "markPercentChange": -17.48,
           "intrinsicValue": -4.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "389.0": [
@@ -1122,9 +1121,9 @@
           "markPercentChange": -19.72,
           "intrinsicValue": -5.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "390.0": [
@@ -1175,9 +1174,9 @@
           "markPercentChange": -17.02,
           "intrinsicValue": -6.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "391.0": [
@@ -1228,9 +1227,9 @@
           "markPercentChange": -19.35,
           "intrinsicValue": -7.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "392.0": [
@@ -1281,9 +1280,9 @@
           "markPercentChange": -19.05,
           "intrinsicValue": -8.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "393.0": [
@@ -1334,9 +1333,9 @@
           "markPercentChange": -15.38,
           "intrinsicValue": -9.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "394.0": [
@@ -1387,9 +1386,9 @@
           "markPercentChange": 0.0,
           "intrinsicValue": -10.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "395.0": [
@@ -1440,9 +1439,9 @@
           "markPercentChange": -3.31,
           "intrinsicValue": -11.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "396.0": [
@@ -1493,9 +1492,9 @@
           "markPercentChange": -21.38,
           "intrinsicValue": -12.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "397.0": [
@@ -1546,9 +1545,9 @@
           "markPercentChange": -45.05,
           "intrinsicValue": -13.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "398.0": [
@@ -1599,9 +1598,9 @@
           "markPercentChange": -34.21,
           "intrinsicValue": -14.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ]
     },
@@ -1654,9 +1653,9 @@
           "markPercentChange": -4.34,
           "intrinsicValue": 14.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "370.0": [
@@ -1707,9 +1706,9 @@
           "markPercentChange": -4.65,
           "intrinsicValue": 13.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "371.0": [
@@ -1760,9 +1759,9 @@
           "markPercentChange": -4.85,
           "intrinsicValue": 12.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "372.0": [
@@ -1813,9 +1812,9 @@
           "markPercentChange": -4.95,
           "intrinsicValue": 11.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "373.0": [
@@ -1866,9 +1865,9 @@
           "markPercentChange": -5.2,
           "intrinsicValue": 10.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "374.0": [
@@ -1919,9 +1918,9 @@
           "markPercentChange": -7.31,
           "intrinsicValue": 9.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "375.0": [
@@ -1972,9 +1971,9 @@
           "markPercentChange": -5.93,
           "intrinsicValue": 8.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "376.0": [
@@ -2025,9 +2024,9 @@
           "markPercentChange": -6.32,
           "intrinsicValue": 7.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "377.0": [
@@ -2078,9 +2077,9 @@
           "markPercentChange": -6.09,
           "intrinsicValue": 6.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "378.0": [
@@ -2131,9 +2130,9 @@
           "markPercentChange": -6.39,
           "intrinsicValue": 5.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "379.0": [
@@ -2184,9 +2183,9 @@
           "markPercentChange": -6.8,
           "intrinsicValue": 4.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "380.0": [
@@ -2237,9 +2236,9 @@
           "markPercentChange": -8.17,
           "intrinsicValue": 3.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "381.0": [
@@ -2290,9 +2289,9 @@
           "markPercentChange": -8.5,
           "intrinsicValue": 2.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "382.0": [
@@ -2343,9 +2342,9 @@
           "markPercentChange": -9.07,
           "intrinsicValue": 1.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "383.0": [
@@ -2396,9 +2395,9 @@
           "markPercentChange": -9.35,
           "intrinsicValue": 0.27,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": true,
-          "nonStandard": false
+          "inTheMoney": true
         }
       ],
       "384.0": [
@@ -2449,9 +2448,9 @@
           "markPercentChange": -9.5,
           "intrinsicValue": -0.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "385.0": [
@@ -2502,9 +2501,9 @@
           "markPercentChange": -10.12,
           "intrinsicValue": -1.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "386.0": [
@@ -2555,9 +2554,9 @@
           "markPercentChange": -10.45,
           "intrinsicValue": -2.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "387.0": [
@@ -2608,9 +2607,9 @@
           "markPercentChange": -10.86,
           "intrinsicValue": -3.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "388.0": [
@@ -2661,9 +2660,9 @@
           "markPercentChange": -11.43,
           "intrinsicValue": -4.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "389.0": [
@@ -2714,9 +2713,9 @@
           "markPercentChange": -11.11,
           "intrinsicValue": -5.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "390.0": [
@@ -2767,9 +2766,9 @@
           "markPercentChange": -11.38,
           "intrinsicValue": -6.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "391.0": [
@@ -2820,9 +2819,9 @@
           "markPercentChange": -12.9,
           "intrinsicValue": -7.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "392.0": [
@@ -2873,9 +2872,9 @@
           "markPercentChange": -11.59,
           "intrinsicValue": -8.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "393.0": [
@@ -2926,9 +2925,9 @@
           "markPercentChange": -11.76,
           "intrinsicValue": -9.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "394.0": [
@@ -2979,9 +2978,9 @@
           "markPercentChange": -10.81,
           "intrinsicValue": -10.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "395.0": [
@@ -3032,9 +3031,9 @@
           "markPercentChange": -7.41,
           "intrinsicValue": -11.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "396.0": [
@@ -3085,9 +3084,9 @@
           "markPercentChange": -9.52,
           "intrinsicValue": -12.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "397.0": [
@@ -3138,9 +3137,9 @@
           "markPercentChange": -11.76,
           "intrinsicValue": -13.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ],
       "398.0": [
@@ -3191,11 +3190,12 @@
           "markPercentChange": -15.38,
           "intrinsicValue": -14.73,
           "pennyPilot": true,
+          "nonStandard": false,
           "mini": false,
-          "inTheMoney": false,
-          "nonStandard": false
+          "inTheMoney": false
         }
       ]
     }
-  }
+  },
+  "putExpDateMap": {}
 }

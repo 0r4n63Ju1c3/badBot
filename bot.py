@@ -5,9 +5,12 @@ import json
 
 from datetime import datetime
 
+
+
 STOCK = 'SPY'
 
 def main() -> None:
+
     print()
     print("-------- Starting bot for the day --------"), print()
 
